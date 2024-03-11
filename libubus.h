@@ -131,6 +131,7 @@ struct ubus_event_handler {
 	struct ubus_object obj;
 
 	ubus_event_handler_t cb;
+	void *cb_args;
 };
 
 struct ubus_context {
